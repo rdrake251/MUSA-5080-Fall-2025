@@ -14,8 +14,4 @@
 ## Getting Started
 Students: Portfolio setup assignment coming before first class!
 
-## 📞 Need Help?
-- **Office Hours:** Mondays 1:30-3:00 PM
-- **Email:** delmelle@design.upenn.edu
-
 *Repository under development - materials will be added throughout August 2025*
