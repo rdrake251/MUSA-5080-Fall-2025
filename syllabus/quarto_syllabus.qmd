@@ -1,4 +1,9 @@
 ---
+project:
+  type: website
+website:
+  title: "MUSA 5080: Public Policy Analytics"
+  description: "Fall 2025 Course Information"
 title: "MUSA 5080 / CPLN 5920: Public Policy Analytics"
 subtitle: "Fall 2025"
 author: "Dr. Elizabeth Delmelle"
