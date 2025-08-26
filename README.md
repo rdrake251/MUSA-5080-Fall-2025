@@ -2,7 +2,7 @@
 **Fall 2025 • Dr. Elizabeth Delmelle**
 
 ## Quick Links
-- [Syllabus](https://yourusername.github.io/MUSA-5080-Fall-2025/) *(coming soon)*
+- [Syllabus](https://musa-5080-fall-2025.github.io/MUSA-5080-Fall-2025/syllabus/)
 - [Student Portfolio Template](https://github.com/MUSA-5080-Fall-2025/musa-5080-fall-2025-portfolio-setup-student-portfolio-template)
 - [Instructor Example Portfolio](https://ecdelmelle.github.io/MUSA-5080-instructor-portolio/)
 
