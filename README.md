@@ -12,7 +12,7 @@
 - `resources/` - Setup guides, references, troubleshooting
 
 ## Lectures
-- [Week 1: Introduction to R and dplyr] (https://musa-5080-fall-2025.github.io/MUSA-5080-Fall-2025/lectures/week-01-intro/week1_lecture_slides.html)
+- [Week 1: Introduction to R and dplyr](https://musa-5080-fall-2025.github.io/MUSA-5080-Fall-2025/lectures/week-01-intro/week1_lecture_slides.html)
 - Week 2: Coming soon...
 
 ## Labs  
