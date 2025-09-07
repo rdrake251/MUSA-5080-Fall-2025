@@ -11,7 +11,9 @@
 - `labs/` - Assignment instructions and templates  
 - `resources/` - Setup guides, references, troubleshooting
 
-## Getting Started
-Students: Portfolio setup assignment coming before first class!
+## Lectures
+- [Week 1: Introduction to R and dplyr] (https://musa-5080-fall-2025.github.io/MUSA-5080-Fall-2025/lectures/week-01-intro/week1_lecture_slides.html)
+- Week 2: Coming soon...
 
-*Repository under development - materials will be added throughout August 2025*
+## Labs  
+- [Lab 0 Template](labs/lab_0/lab_0_template.qmd)
