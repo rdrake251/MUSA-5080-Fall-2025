@@ -16,4 +16,4 @@
 - Week 2: Coming soon...
 
 ## Labs  
-- [Lab 0 Template](labs/lab_0/lab_0_template.qmd)
+- [Lab 0 Template](labs/lab_0/lab0_template.qmd)
