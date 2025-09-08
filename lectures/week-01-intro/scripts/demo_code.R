@@ -4,11 +4,14 @@ car_data <- read_csv("data/car_sales_data.csv") # reads in as tibble. vs read.cs
 class(car_data)
 car_data
 
-car_df <- as.data.frame(data)   # Regular data frame - prints all rows
+car_df <- as.data.frame(car_data)   # Regular data frame - prints all rows
 car_df
 
+head(car_data,10)
+names(car_data)
+glimpse(car_data)
 # Rule 1: Data frame first & Rule 2: Column names without quotes
-select(car_data, Manufacturer, Price)
+select1 <- select(car_data, Manufacturer, Price)
 filter(car_data, Price > 20000)
 mutate(car_data, price_k = Price / 1000)
 
@@ -33,18 +36,21 @@ new_data <- select(new_data, -Price)
 car_data<- mutate(car_data, age = 2025-year)
 
 #create another new column, fancier this time
-car_data <- mutate(car_data, oldcars = case_when(age>20~"old", TRUE ~ "not old"))
+car_data <- mutate(car_data, 
+                   oldcars = case_when(age>20~"old", TRUE ~ "not old"))
 
 # filter (select rows)
 old_cars <- filter(car_data, oldcars == 'old')
 young_cars <- filter(car_data, oldcars != 'old')
 
 #logical operators.
-young_diesel <- filter(car_data, oldcars == 'not old' & `Fuel type` == 'Diesel')
+young__or_diesel <- filter(car_data, oldcars == 'not old' | 
+                         `Fuel type` == 'Diesel')
 # What happens with 'Or' instead? (|)
 
 #group_by and summarize. Like peanut butter & jelly
-avg_manufacturer <- car_data %>% group_by(Manufacturer)%>%summarize(ave_price = mean(Price))
+avg_manufacturer <- car_data %>% 
+  group_by(Manufacturer)%>%summarize(ave_price = mean(Price))
 avg_manufacturer
 
 #summarize categorical data
