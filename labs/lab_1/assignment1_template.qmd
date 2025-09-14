@@ -43,9 +43,11 @@ Create this assignment in your portfolio repository under an `assignments/assign
 ```
 - text: Assignments
   menu:
-    - href: assignments/assignment_1/
-      text: Assignment 1: Census Data Exploration
+    - href: assignments/assignment_1/your_file_name.qmd
+      text: "Assignment 1: Census Data Exploration"
 ```
+If there is a special character like comma, you need use double quote mark so that the quarto can identify this as text
+
 # Setup
 
 ```{r setup}
@@ -294,4 +296,4 @@ Before submitting your portfolio link on Canvas:
 - [ ] Census API key is properly set 
 - [ ] Document renders correctly to HTML
 
-**Remember:** Submit your portfolio URL on Canvas, not the file itself. Your assignment should be accessible at `your-portfolio-url/assignments/assignment_1/`
+**Remember:** Submit your portfolio URL on Canvas, not the file itself. Your assignment should be accessible at `your-portfolio-url/assignments/assignment_1/your_file_name.html`

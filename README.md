@@ -17,3 +17,4 @@
 
 ## Labs  
 - [Lab 0 Template](labs/lab_0/lab0_template.qmd)
+- [lab 1 Template](labs/lab_1/assignment1_template.qmd)
