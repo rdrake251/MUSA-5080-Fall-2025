@@ -25,6 +25,7 @@ Welcome to your first lab! In this (not graded) assignment, you'll practice the 
 - Grouping and summarizing
 
 **Instructions:** Copy this template into your portfolio repository under a `lab_0/` folder, then complete each section with your code and answers. You will write the code under the comment section in each chunk.
+Be sure to also copy the data folder into your `lab_0` folder.
 
 # Setup
 

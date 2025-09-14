@@ -7,6 +7,7 @@ format:
   revealjs:
     theme: simple
     slide-number: true
+    scrollable: true
     chalkboard: true
     code-line-numbers: true
     incremental: false
@@ -117,7 +118,6 @@ Patient care prioritization and resource allocation
 
 - More data (official and "accidental")
 - Focus on **prediction** rather than explanation
-- **Personalization** - individual-level decisions
 - **Harder to interpret** and explain
 
 ## Why Government Uses Algorithms
@@ -149,7 +149,8 @@ Algorithmic decision making is especially appealing because it promises:
 
 **These choices embed human values and biases**
 
-## Healthcare Algorithm Bias
+## {.smaller}
+**Healthcare Algorithm Bias**
 
 **The Problem:**
 
@@ -203,12 +204,6 @@ Algorithm used to identify high-risk patients for additional care **systematical
 ## Small Group Challenge (10 Minutes! We keep a tight ship around here.)
 
 At your table, pick **one** scenario and answer **three** prompts.
-
-**Timing**
-
-- **0–1 min:** Pick a scenario
-- **1–9 min:** Discuss & jot answers
-- **9–10 min:** Be ready for a 20-second share
 
 **Prompts (plain English, no tech):**
 
@@ -546,7 +541,8 @@ count(pa_reliability, reliability)
 
 ## Finding Patterns with dplyr
 
-**Same functions as Lab 0, real policy data:**
+- Find counties with highest uncertainty
+- Summarize by reliability category
 
 ```{r demo-analysis}
 # Find counties with highest uncertainty
@@ -563,8 +559,6 @@ reliability_summary <- pa_reliability %>%
     avg_income = round(mean(median_incomeE, na.rm = TRUE), 0)
   )
 ```
-
-**Same dplyr skills, policy applications**
 
 ## Professional Tables
 

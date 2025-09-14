@@ -48,6 +48,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -240,7 +241,6 @@ Mortgage lending and tenant screening algorithms</p>
 <ul>
 <li>More data (official and “accidental”)</li>
 <li>Focus on <strong>prediction</strong> rather than explanation</li>
-<li><strong>Personalization</strong> - individual-level decisions</li>
 <li><strong>Harder to interpret</strong> and explain</li>
 </ul>
 </section>
@@ -278,8 +278,9 @@ Mortgage lending and tenant screening algorithms</p>
 </ul>
 <p><strong>These choices embed human values and biases</strong></p>
 </section>
-<section id="healthcare-algorithm-bias" class="slide level2">
-<h2>Healthcare Algorithm Bias</h2>
+<section id="section" class="slide level2 smaller">
+<h2></h2>
+<p><strong>Healthcare Algorithm Bias</strong></p>
 <p><strong>The Problem:</strong></p>
 <p>Algorithm used to identify high-risk patients for additional care <strong>systematically discriminated against Black patients</strong></p>
 <p><strong>What Went Wrong:</strong></p>
@@ -328,15 +329,9 @@ Mortgage lending and tenant screening algorithms</p>
 <h1>Part 2: Active Learning Exercise</h1>
 
 </section>
-<section id="small-group-challenge-10-minutes-we-keep-a-tight-ship-around-here." class="slide level2">
+<section id="small-group-challenge-10-minutes-we-keep-a-tight-ship-around-here." class="slide level2 scrollable">
 <h2>Small Group Challenge (10 Minutes! We keep a tight ship around here.)</h2>
 <p>At your table, pick <strong>one</strong> scenario and answer <strong>three</strong> prompts.</p>
-<p><strong>Timing</strong></p>
-<ul>
-<li><strong>0–1 min:</strong> Pick a scenario</li>
-<li><strong>1–9 min:</strong> Discuss &amp; jot answers</li>
-<li><strong>9–10 min:</strong> Be ready for a 20-second share</li>
-</ul>
 <p><strong>Prompts (plain English, no tech):</strong></p>
 <ol type="1">
 <li><strong>Proxy:</strong> What would you <em>use</em> to stand in for what you <em>want</em>?</li>
@@ -344,7 +339,7 @@ Mortgage lending and tenant screening algorithms</p>
 <li><strong>Harm + Guardrail:</strong> Who could be harmed, and one simple safeguard?</li>
 </ol>
 </section>
-<section id="pick-one-scenario" class="slide level2">
+<section id="pick-one-scenario" class="slide level2 scrollable">
 <h2>Pick one scenario</h2>
 <ol type="1">
 <li><strong>Emergency response prioritization</strong> (natural disasters)<br>
@@ -664,8 +659,10 @@ $ moe      &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N
 </section>
 <section id="finding-patterns-with-dplyr" class="slide level2">
 <h2>Finding Patterns with dplyr</h2>
-<p><strong>Same functions as Lab 0, real policy data:</strong></p>
-<p><strong>Same dplyr skills, policy applications</strong></p>
+<ul>
+<li>Find counties with highest uncertainty</li>
+<li>Summarize by reliability category</li>
+</ul>
 </section>
 <section id="professional-tables" class="slide level2">
 <h2>Professional Tables</h2>
@@ -704,7 +701,7 @@ $ moe      &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N
 <li>Format numbers appropriately</li>
 </ul>
 </section>
-<section id="quick-practice" class="slide level2">
+<section id="quick-practice" class="slide level2 scrollable">
 <h2>Quick Practice</h2>
 <p><strong>Try this with a neighbor (5 minutes):</strong></p>
 <p>Using the <code>pa_reliability</code> data we just created:</p>
@@ -744,7 +741,7 @@ $ moe      &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N
 <p><strong>Census Data</strong> → The foundation for most urban planning and policy analysis</p>
 <p><strong>R Skills</strong> → The tools to do this work professionally and ethically</p>
 </section>
-<section id="questions-for-reflection" class="slide level2">
+<section id="questions-for-reflection" class="slide level2 scrollable">
 <h2>Questions for Reflection</h2>
 <p><strong>As you work with data this semester, ask:</strong></p>
 <ol type="1">
@@ -763,7 +760,7 @@ $ moe      &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N
 <h1>Next Steps</h1>
 
 </section>
-<section id="before-next-class" class="slide level2">
+<section id="before-next-class" class="slide level2 scrollable">
 <h2>Before Next Class</h2>
 <ol type="1">
 <li><strong>Complete Lab 0</strong> if you haven’t finished</li>
