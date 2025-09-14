@@ -33,8 +33,8 @@ your-portfolio/
 ├── weekly-notes/        # Already exists
 ├── labs/                # CREATE THIS FOLDER
 │   └── lab_0/           # CREATE THIS FOLDER
-│       ├── index.qmd    # You'll add this
-│       └── data/        # CREATE THIS FOLDER
+│       ├── lab_0_template.qmd    # You'll copy this file here
+│       └── data/        # CREATE THIS FOLDER (copy data folder)
 └── ... (other files)
 ```
 
@@ -66,10 +66,10 @@ navbar:
       text: Home
     - href: weekly-notes/
       text: Weekly Notes
-    - text: "Labs"
+    - text: Labs
       menu:
         - href: labs/lab_0/
-          text: "Lab 0: dplyr Basics"
+          text: Lab 0: dplyr Basics
 ```
 
 **Important:** Make sure the indentation matches exactly! YAML is sensitive to spacing.
@@ -112,12 +112,12 @@ navbar:
       text: Home
     - href: weekly-notes/
       text: Weekly Notes
-    - text: "Labs"
+    - text: Labs
       menu:
         - href: labs/lab_0/
-          text: "Lab 0: dplyr Basics"
+          text: Lab 0: dplyr Basics
         - href: labs/lab_1/           # ADD NEW LABS HERE
-          text: "Lab 1: [Lab Title]"
+          text: Lab 1: [Lab Title]
 ```
 
 ### Step 5: Render and Deploy

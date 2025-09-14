@@ -109,8 +109,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 ├── weekly-notes/        # Already exists
 ├── labs/                # CREATE THIS FOLDER
 │   └── lab_0/           # CREATE THIS FOLDER
-│       ├── index.qmd    # You'll add this
-│       └── data/        # CREATE THIS FOLDER
+│       ├── lab_0_template.qmd    # You'll copy this file here
+│       └── data/        # CREATE THIS FOLDER (copy data folder)
 └── ... (other files)</code></pre>
 <p><strong>In RStudio:</strong> 1. In the Files pane, click “New Folder” 2. Name it <code>labs</code> 3. Inside <code>labs</code>, create another folder called <code>lab_0</code> 4. Inside <code>lab_0</code>, create a folder called <code>data</code></p>
 </section>
@@ -131,10 +131,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Home</span></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> weekly-notes/</span></span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Weekly Notes</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Labs"</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Labs</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">menu</span><span class="kw">:</span></span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> labs/lab_0/</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lab 0: dplyr Basics"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Lab 0: dplyr Basics</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>Important:</strong> Make sure the indentation matches exactly! YAML is sensitive to spacing.</p>
 </section>
 <section id="step-3-test-your-setup" class="level3">
@@ -182,12 +182,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Home</span></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> weekly-notes/</span></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Weekly Notes</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Labs"</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Labs</span></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">menu</span><span class="kw">:</span></span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> labs/lab_0/</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lab 0: dplyr Basics"</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Lab 0: dplyr Basics</span></span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> labs/lab_1/</span><span class="co">           # ADD NEW LABS HERE</span></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lab 1: [Lab Title]"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Lab 1: [Lab Title]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-5-render-and-deploy" class="level3">
 <h3 class="anchored" data-anchor-id="step-5-render-and-deploy">Step 5: Render and Deploy</h3>
