@@ -15,6 +15,7 @@
 - [Week 1: Introduction to R and dplyr](https://musa-5080-fall-2025.github.io/MUSA-5080-Fall-2025/lectures/week-01-intro/week1_lecture_slides.html)
 - [Week 2: Algorithmic Decision Making & The Census](https://musa-5080-fall-2025.github.io/MUSA-5080-Fall-2025/lectures/week-02/lectures/week2_slides.html)
 
-## Labs  
+## Labs 
+- [Lab setup instructions](https://musa-5080-fall-2025.github.io/MUSA-5080-Fall-2025/labs/lab_setup_instructions.html)
 - [Lab 0 Template](labs/lab_0/lab0_template.qmd)
-- [lab 1 Template](labs/lab_1/assignment1_template.qmd)
+- [Lab 1 Template](labs/lab_1/assignment1_template.qmd)
