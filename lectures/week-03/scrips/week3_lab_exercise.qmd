@@ -25,7 +25,7 @@ library(tidycensus)
 library(scales)
 library(RColorBrewer)
 # Set your Census API key if you haven't already
-census_api_key(Sys.getenv("CENSUS_API_KEY"))
+census_api_key(Sys.getenv("a55638f442ab081818dbf0ae29a32549253a2ab0"))
 
 # We'll use Pennsylvania data for consistency with previous weeks
 state_choice <- "PA"
