@@ -368,16 +368,18 @@ ggplot(counties_with_errors) +
 
 ### Research Question
 
-**"Which low-income census tracts in rural areas lack access to hospitals?"**
+**Which Pennsylvania counties have the highest proportion of vulnerable populations (elderly + low-income) living far from hospitals?**
 
 **Your Task:** Combine what you've learned to identify vulnerable, underserved communities.
 
 **Steps:**
-1. Get income data for census tracts
-2. Identify low-income tracts (median income < $40,000)
-3. Filter for rural tracts only (not in metro areas)
+1. Get demographic (elderly and income) data for census tracts
+2. Identify vulnerable tracts (low income AND high elderly population)
+3. Calculate distance to nearest hospital
 4. Check which ones are more than 15 miles from a hospital
-5. Map the results
+5. Aggregate to county level
+6. Create comprehensive map
+7. Create a summary table
 
 ```{r}
 # Your code here!
@@ -421,4 +423,4 @@ After completing these exercises, reflect on:
 | `st_area()` | Calculate areas | County sizes, coverage |
 | `st_distance()` | Calculate distances | Distance to facilities |
 
-**Key Insight:** Always check and standardize CRS when working with spatial data from multiple sources!
+**Important Reminder:** Always *check* and standardize CRS when working with spatial data from multiple sources!
