@@ -475,6 +475,10 @@ Use at least TWO spatial operations to answer your research question.
 
 [Write your findings here]
 
+
+## Finally - A few comments about your incorporation of feedback!
+Take a few moments to clean up your markdown document and then write a line or two or three about how you may have incorporated feedback that you recieved after your first assignment. 
+
 ---
 
 ## Submission Requirements
@@ -485,8 +489,6 @@ Use at least TWO spatial operations to answer your research question.
    - Use `embed-resources: true` in YAML so it's a single file
    - All code should run without errors
    - All maps and charts should display correctly
-
-2. An accompanying .md file that states how you incorporated feedback from the first assignment. 
 
 **File naming:** `LastName_FirstName_Assignment2.html` and `LastName_FirstName_Assignment2.qmd`
 
