@@ -21,7 +21,7 @@ library(tidycensus)
 library(broom)
 library(scales)
 
-census_api_key("Your Key Here")
+census_api_key("a55638f442ab081818dbf0ae29a32549253a2ab0")
 ```
 
 # Opening Question
